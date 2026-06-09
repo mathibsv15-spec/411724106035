@@ -1,13 +1,14 @@
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:xx-large;
-    font-style: italic;
-
-}
 img{
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
+    height: 500px;
+    width: 500px;
+    /*border-radius: 100px;*/
+}
+
+@media(max-width: 600px){
+    img{
+        height: auto;
+        width: 100%;
+    }
 }
 
 body{
@@ -15,15 +16,16 @@ body{
     background-color:yellow;
 }
 video{
-    height:500px;
-
+   video{
+    width: 100%;
+} 
 }
 ol{
-    list_style_type:upper_roman;
+    list-style-type:upper_roman;
 
 }
 ul{
-    list_style_type:disc;
+    list-style-type:disc;
 }
 h1{
     padding:50px;
@@ -37,15 +39,27 @@ button{
 button:hover{
     background-color: black;
 }
-table, th, td{
-    border:1px solid=white;
-
+table {
+    border-collapse: collapse;
 }
+
+table, th, td {
+    border: 1px solid black;
+}
+
 nav{
     display: flex;
-    flex-direction:row;
-    gap:50px;
+    flex-direction:column;
+    /*gap:50px;*/
 }
+@media(min-width: 1024px){
+    nav{
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+}
+}
+
 #p1{
     font-style: italic;
 }
@@ -58,16 +72,34 @@ nav{
 .grid{
      display: grid;
 }
-#one{
-    grid-row: 1/2;
 
+#one{
+grid-row: 1/2
 }
 #two{
-    grid-row:2/2;
+    grid-row:1/2;
 }
 #three{
-    grid-row: 1/2;
+    grid-row:1/2;
 }
 #four{
-    grid-row: ;
+    grid-row:2/3;
+}
+#five{
+    grid-row:2/3;
+}
+#six{
+    grid-row:2/3;
+}
+.group{ 
+    
+}
+.grid{
+    display:grid;
+}
+@media(min-width:1024px){
+.grid{
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+}
 }
