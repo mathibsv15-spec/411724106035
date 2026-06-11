@@ -1,105 +1,94 @@
-img{
-    height: 500px;
-    width: 500px;
-    /*border-radius: 100px;*/
+body {
+  color: black;
+  background-color: yellow;
 }
 
-@media(max-width: 600px){
-    img{
-        height: auto;
-        width: 100%;
-    }
-}
-
-body{
-    color: rgb(0, 0, 0);
-    background-color:yellow;
-}
-video{
-   video{
-    width: 100%;
-} 
-}
-ol{
-    list-style-type:upper_roman;
-
-}
-ul{
-    list-style-type:disc;
-}
-h1{
-    padding:50px;
-    border: 1px solid rgb(45, 11, 194);
-    margin:50px;
-}
-button{
-    background-color: rgb(219, 177, 10) ;
-}
-
-button:hover{
-    background-color: black;
-}
-table {
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-nav{
-    display: flex;
-    flex-direction:column;
-    /*gap:50px;*/
-}
-@media(min-width: 1024px){
-    nav{
-    display: flex;
-    flex-direction:row;
-    gap: 50px;
-}
-}
-
-#p1{
-    font-style: italic;
-}
-#p2{
-    font-style: normal;
-}
-.group{
+/* p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: xx-large;
-}
-.grid{
-     display: grid;
+    font-style: italic;
+} */
+
+img {
+  height: 500px;
+  width: 500px;
+  /* border-radius: 500px; */
 }
 
-#one{
-grid-row: 1/2
+@media (max-width: 600px) {
+  img {
+    height: auto;
+    width: 100%;
+  }
 }
-#two{
-    grid-row:1/2;
+
+video {
+  width: 100%;
 }
-#three{
-    grid-row:1/2;
+
+ol {
+  list-style-type: upper-roman;
 }
-#four{
-    grid-row:2/3;
+
+ul {
+  list-style-type: disc;
 }
-#five{
-    grid-row:2/3;
+
+h1 {
+  padding: 50px;
+  border: 1px solid red;
+  margin: 50px;
 }
-#six{
-    grid-row:2/3;
+
+button {
+  background-color: red;
+  padding: 10px;
+  margin: 20px;
 }
-.group{ 
-    
+
+button:hover {
+  background-color: blue;
 }
-.grid{
-    display:grid;
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
 }
-@media(min-width:1024px){
-.grid{
-    display:grid;
-    grid-template-columns:33% 33% 33%;
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+  }
+}
+#p1 {
+  font-style: italic;
+}
+
+#p2 {
+  font-style: normal;
+}
+
+.group {
+  font-size: xx-large;
+}
+
+.grid {
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
 }
