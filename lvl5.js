@@ -16,6 +16,11 @@ console.log(arr);
 arr.pop();
 console.log(arr);
 
+for (let i=0; i<arr.lenght; i++){
+  console.log(arr[i])
+}
+
+
 function example() {
   console.log("I am writing something");
 }
