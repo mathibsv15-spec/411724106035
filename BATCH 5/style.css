@@ -1,0 +1,191 @@
+<<<<<<< HEAD
+body {
+  color: black;
+  background-color: yellow;
+}
+
+/* p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+} */
+
+img {
+  height: 500px;
+  width: 500px;
+  /* border-radius: 500px; */
+}
+
+@media (max-width: 600px) {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+video {
+  width: 100%;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+h1 {
+  padding: 50px;
+  border: 1px solid red;
+  margin: 50px;
+}
+
+button {
+  background-color: red;
+  padding: 10px;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+  }
+}
+#p1 {
+  font-style: italic;
+}
+
+#p2 {
+  font-style: normal;
+}
+
+.group {
+  font-size: xx-large;
+}
+
+.grid {
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+=======
+body {
+  color: black;
+  background-color: yellow;
+}
+
+/* p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+} */
+
+img {
+  height: 500px;
+  width: 500px;
+  /* border-radius: 500px; */
+}
+
+@media (max-width: 600px) {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+video {
+  width: 100%;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+h1 {
+  padding: 50px;
+  border: 1px solid red;
+  margin: 50px;
+}
+
+button {
+  background-color: red;
+  padding: 10px;
+  margin: 20px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    /* gap: 50px; */
+  }
+}
+#p1 {
+  font-style: italic;
+}
+
+#p2 {
+  font-style: normal;
+}
+
+.group {
+  font-size: xx-large;
+}
+
+.grid {
+  display: grid;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+>>>>>>> 000870e3c367c235d07fad4af9368b8d46071f24
